@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+    transition: all 0.3s ease;
+}
+
+
+.no-underline {
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease;
+}
+
+.no-underline:hover {
+    color: #3aace4;
+    transform: translateY(-2px);
+}
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 70px;
+    font-family: Roboto;
+    color: black;
+    text-decoration: none;
+
+}
+
+.header-btn {
+    border-radius: 20px;
+    padding: 20px 40px;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    border: 2px solid rgb(114, 155, 250);
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+
+.no-underline {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-btn:hover {
+    background-color: #3aace4;
+    color: whitesmoke;
+    transform: scale(1.08);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 8%;
+    gap: 40px;
+}
+
+
+
+.main-text {
+    max-width: 500px;
+    margin-top: -350px;
+
+    h1 {
+        font-size: 48px;
+        font-weight: bold;
+        color: #1a1a1a;
+        margin-bottom: 20px;
+        line-height: 1.2;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    span {
+        color: rgb(69, 69, 255);
+    }
+
+    p {
+        color: #7D7D7D;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+}
+
+.hero-btn {
+    display: inline-block;
+    background-color: #717CFF;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 40px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    gap: 30px;
+    border: none;
+    margin-top: 30px;
+
+}
+
+.hero-btn:hover {
+    background-color: #3aace4;
+    color: white;
+    transform: scale(1.08);
+    border: none;
+}
+
+.main-icons {
+    display: flex;
+    gap: 30px;
+}
+
+.main-backround-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.icons-h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #848181;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.hero-icons {
+    display: flex;
+    gap: 70px;
+}
+
+.nuqta-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    padding: 50px;
+}
+
+.hero-h3 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.hero-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7D7D7D;
+    margin-top: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    gap: 50px;
+}
+
+.service-header {
+    text-align: center;
+    max-width: 650px;
+    margin: 0 auto 50px auto;
+}
+
+.services-header h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #c43333;
+    margin-bottom: 15px;
+}
+
+.services-header p {
+    font-size: 16px;
+    color: #666666;
+    line-height: 1.6;
+}
+
+/* icons  */
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+.service-card {
+    background-color: #ffffff;
+    width: 350px;
+    padding: 40px 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.icon-box {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.blue-bg {
+    background-color: rgba(92, 106, 196, 0.15);
+}
+
+.red-bg {
+    background-color: rgba(255, 107, 107, 0.15);
+}
+
+.green-bg {
+    background-color: rgba(76, 175, 80, 0.15);
+}
+
+.home-bg {
+    background-color: rgba(92, 106, 196, 0.15);
+}
+
+.air-bg {
+    background-color: rgba(255, 107, 107, 0.15);
+}
+
+.icon-box img {
+    width: 60px;
+    height: 60px;
+}
+
+.service-card h3 {
+    font-size: 20px;
+    color: #1a1a1a;
+    margin-bottom: 15px;
+}
+
+.service-card h3 strong {
+    font-weight: bold;
+}
+
+.service-card p {
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.service-card a {
+    color: #5c6ac4;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+    transition: transform 0.2s;
+}
+
+.service-card a:hover {
+    transform: translateX(5px);
+}
+
+/* icons  */
